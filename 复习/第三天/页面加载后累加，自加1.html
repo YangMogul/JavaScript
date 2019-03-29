@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			body{text-align:center;font:700 30px/1.5 arial;}
+		</style>
+	
+	</head>
+	<body>
+		4
+	</body>
+	<script>
+	window.onload = function (){
+		var oBody = document.body;
+		var i = 0;
+		setInterval(updateNum, 1000);
+		updateNum();
+		function updateNum(){
+			oBody.innerHTML = ++i	
+		}
+	}
+	</script>
+
+
+</html>

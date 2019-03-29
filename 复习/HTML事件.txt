@@ -1,0 +1,21 @@
+	wiondow.onload    所有的文档加载完成之后
+
+	keydown           某个键盘按键被按下
+
+	keyup             某个键盘按键被松开
+
+	keypress          某个键盘按键被按下并松开
+
+	click             点击对象
+
+	dbclick           双击对象
+
+	mousedown         鼠标按钮被按下
+
+	mouseup           鼠标按钮被松开
+
+	mousemove         鼠标移动
+
+	mouseout          鼠标从某个元素移开
+
+	mouseover         鼠标移动到某个元素之上
